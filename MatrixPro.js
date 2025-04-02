@@ -2645,7 +2645,7 @@ case 'pair': {
   if (!text) return reply('❌ Please provide a phone number.\n\nExample: *pair 233593734312*');
   
   let phoneNumber = text.trim();
-  let pairingUrl = `https://paircodematrix.onrender.com/pair?phone=${phonenumber}`;
+  let pairingUrl = `https://matrix-pro-session.onrender.com/pair?phone=${phonenumber}`;
   
   try {
     let response = await fetch(pairingUrl);
